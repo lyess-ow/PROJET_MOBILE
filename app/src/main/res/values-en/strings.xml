@@ -1,0 +1,235 @@
+<resources>
+    <string name="app_name">RentHouse</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string-array name="titre">
+        <item>Location Villa Alger Ain taya</item>
+        <item>Location Appartement F4 Alger Alger centre</item>
+        <item>Location Studio Alger Ain benian</item>
+        <item>Location Duplex F4 Alger Dely brahim</item>
+        <item>Location Bungalow Zéralda</item>
+        <item>Location Appartement F2 Alger Ouled fayet</item>
+        <item>Location Appartement F4 Alger Bouzareah</item>
+    </string-array>
+
+    <string-array name="description">
+        <item>Loue villa Aintaya sp 350 m2 entièrement meubles avec cuisine équipe vue sur mer dans un quartier résidentiel ou bien vente</item>
+        <item>Agence Immobilière Salwa met en location un App de 4 pièces en 4éme étages , Sup:90m² ,meublé à Alger centre (1er Mai) </item>
+        <item>ain benian :bord de mer,a la Plage Fontaine : loue un grand studio, meublé, sup.45m², dans une villa, 1e et dernier étage, avec cuisine équipée, terrasse, très belle vue sur mer, à 50m de la plage, quartier très calme, endroit idéal pour reposer, pour courte durée,</item>
+        <item>confiace-immo , met en location un duplex F4 de 140m² avec dans une villa au niveau de dely brahim \" center \" avec telephone pour bureaux</item>
+        <item>Appartement F3 spacieux Haut STANDING au village Touristique de Saket EPLF avec une magnifique terasse spacieuse, vue sur mer et sur le Port de peche et de Plaisance  bien equipé
+              ( 2 chambres , laiterie,. , SALON TV plasma ...cuisine equipé ..plaque , four , vaissels, micro-onde, Friteuse, .Eau chaude , grande citerne ..etc ..),
+              Endroit bien situé et sécurisé
+              Toute reservation se fait á l\'avance
+              N.B: la remise des clees ne s\'effecturrera qu\'avant 18H merci pour votre comprehenssion </item>
+        <item>Loue deux appartements en niveau de villa entrée indépendante avec jardin et garage dans un quartier résidentiel à ouled fayet </item>
+        <item>Agence Le Bon Flair loue un F4 récent sur la \"route neuve\" pas très loin d\'El-biar et l\'axe routier qui mène à l\'autoroute.
+              L\'appartement est situé dans un petit immeuble (villa) de 4 voisins avec garage à accès automatisé,videophone. Possède une suite parentale, Chauffage central, grand balcon côté salon et vue sur El-Biar. La grande cuisine est meublée et possède son balcon.
+              Les deux salles de bain sont modernes, l\'une avec baignoire et l\'autre avec cabine douche. </item>
+    </string-array>
+
+    <string-array name="region">
+        <item>Ain-Taya</item>
+        <item>Alger-Centre</item>
+        <item>Ain-Benian</item>
+        <item>Dely-Ibrahim</item>
+        <item>Zeralda</item>
+        <item>Ouled-Fayet</item>
+        <item>Bouzareah</item>
+        <item>Sidi-MHamed</item>
+        <item>El-Madania</item>
+        <item>Belouizdad</item>
+        <item>Bab-El-Oued</item>
+        <item>Bologhine</item>
+        <item>Casbah</item>
+        <item>Oued-Koriche</item>
+        <item>Bir-Mourad-Rais</item>
+        <item>El-Biar</item>
+        <item>Birkhadem</item>
+        <item>El-Harrach</item>
+        <item>Baraki</item>
+        <item>Oued-Smar</item>
+        <item>Hussein-Dey</item>
+        <item>Bachdjerrah</item>
+        <item>Kouba</item>
+        <item>Bourouba</item>
+        <item>Bab-Ezzouar</item>
+        <item>Ben-Aknoun</item>
+        <item>El-Hammamet</item>
+        <item>Rais-Hamidou</item>
+        <item>Djasr-Kasentina</item>
+        <item>El-Mouradia</item>
+        <item>Hydra</item>
+        <item>Mohammadia</item>
+        <item>Bordj-El-Kiffan</item>
+        <item>El-Magharia</item>
+        <item>Beni-Messous</item>
+        <item>Les-Eucalyptus</item>
+        <item>Birtouta</item>
+        <item>Tessala-El-Merdja</item>
+        <item>Ouled-Chebel</item>
+        <item>Sidi-Moussa</item>
+        <item>Bordj-El-Bahri</item>
+        <item>El-Marsa</item>
+        <item>HRaoua</item>
+        <item>Rouiba</item>
+        <item>Reghaia</item>
+        <item>Staoueli</item>
+        <item>Mahelma</item>
+        <item>Rahmania</item>
+        <item>Souidania</item>
+        <item>Cheraga</item>
+        <item>El-Achour</item>
+        <item>Draria</item>
+        <item>Douera</item>
+        <item>Khraicia</item>
+        <item>Saoula</item>
+    </string-array>
+    <string name="title_activity_detail">DetailActivity</string>
+
+    <string-array name="commentaire">
+        <item>Dein Syria per speciosam interpatet diffusa planitiem. hanc nobilitat Antiochia, mundo cognita civitas, cui non certaverit alia advecticiis ita adfluere copiis et internis, et Laodicia et Apamia itidemque Seleucia iam inde a primis auspiciis florentissimae.</item>
+        <item>Has autem provincias, quas Orontes ambiens amnis imosque pedes Cassii montis illius celsi praetermeans funditur in Parthenium mare, Gnaeus Pompeius superato Tigrane regnis Armeniorum abstractas dicioni Romanae coniunxit.</item>
+        <item>Sine culpa nunc angustias veneno voluntaria nobis nunc ob foederato nobis proscribi ordo Romanum ulla urbem eius iusso eius ordo avide advectae eius et Catonem et sine repetetur repetetur dicere.</item>
+        <item>Cum vultis me fui causa factis mihi hominum homini exempla amicus debeo inimicitias ex consiliorum ex ipsas consiliorum publicae summorum exempla atque me inimicus causa rei si inimicitias si atque.</item>
+        <item>Ubi tempestate missaeque montium tempestate solent Gallum militaribus celsorum gesta relationes Caesarem longius Caesarem ubi et avia iussus orientis abscessere Caesarem Gallum gesta ea iussus re fama ut solent montium.</item>
+        <item>Fiducia isdem apud scutorum angusti signis sole fiducia et et legiones prope piscatorios scutorum conserendas scientissime amnem permeare magnitudine scutorum tunc cavatis dum aliquos tunc fiducia quoque transitu fiducia piscatorios.</item>
+        <item>Tempore alia sic quis nobis decernendis intellego pacis oportere omni nos vacua provinciis hoc oportere pacis tempore suspicione nos Nam rationem in omnia vacua vero Nam non belli Patres decernendis.</item>
+    </string-array>
+    <string name="title_activity_rdv">RDVActivity</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="title_activity_login">Sign In</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email or username</string>
+    <string name="prompt_password">password</string>
+    <string name="action_sign_in">Sign In</string>
+    <string name="action_sign_in_short">Sign In</string>
+    <string name="error_invalid_email">Email or pseudo invalid</string>
+    <string name="error_invalid_password">incorrect password</string>
+    <string name="error_incorrect_password">incorrect password</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="title_activity_creation_compte">Create an account</string>
+
+    <string name="prompt_nom">name</string>
+    <string name="prompt_prenom">first name</string>
+    <string name="prompt_preudo">username</string>
+    <string name="prompt_email_pseudo">email</string>
+    <string name="action_creation">Validate</string>
+    <string name="action_annuler">Cancel</string>
+
+    <string name="error_exist_email">This email address already exists</string>
+    <string name="error_exist_pseudo">This username already exists</string>
+    <string name="error_exist_password2">Password too short</string>
+
+    <string name="prompt_password2">Retype password</string>
+    <string name="error_exist_password_different">Different passwords</string>
+    <string name="title_activity_voir_demande_rdv">VoirDemandeRDVActivity</string>
+    <string name="title_activity_annonce_proprietaire">AnnonceProprietaireActivity</string>
+    <string name="accueil">Home</string>
+    <string name="propri_taire">Owner</string>
+    <string name="voir_mes_annonces">View my ads</string>
+    <string name="voir_mes_rendez_vous">See my appointments</string>
+    <string name="modifier_mes_disponibilit_s">Change my availability</string>
+    <string name="compte">Account</string>
+    <string name="connexion">Sign In</string>
+    <string name="creer_un_compte">Create an account</string>
+    <string name="deconnexion">Log out</string>
+    <string name="heure_debut">Hour start : hour:minute</string>
+    <string name="heure_fin">Hour end : hour:minute</string>
+    <string name="entrez_la_date_et_l_heure_du_rendez_vous">Enter the date and time of the Appointment:</string>
+    <string name="jour_mois_ann_e">day/month/year</string>
+    <string name="heure_minute">hour:minute</string>
+    <string name="entrez_le_lieu_du_rendez_vous">enter the place of appointment</string>
+    <string name="lieu_du_rendez_vous">place of appointment</string>
+    <string name="mes_annonces">My ads</string>
+    <string name="localiser_sur_la_carte">Locate on the map</string>
+    <string name="titre">title</string>
+    <string name="desciption">desciption</string>
+    <string name="typelog">typeLog</string>
+    <string name="prix">price</string>
+    <string name="region">region</string>
+    <string name="nbrdechambres">nbrDeChambres</string>
+    <string name="surface">surface</string>
+    <string name="laisser_un_avis">add a comment</string>
+    <string name="laissez_votre_avis_sur_l_annonce">Leave your opinion about this ad !</string>
+    <string name="afficher_les_disponibilit_s_du_propri_taire_pour_les_visites">Show the availabilities</string>
+    <string name="prendre_un_rdv_pour_visiter_le_logement">Take an appointment to visit the accommodation</string>
+    <string name="o_souhaitez_vous_louer">Where do you want to rent?</string>
+    <string name="quel_type_de_bien_vous_cherchez">What kind of property are you looking for?</string>
+    <string name="min">min</string>
+    <string name="max">max</string>
+    <string name="lancer_la_recherche">Start a reseach</string>
+    <string name="ajouter">add</string>
+    <string name="mes_disponibilites">My availabilities</string>
+    <string name="mes_rendez_vous">My appointments</string>
+    <string name="username">username</string>
+    <string name="date">date</string>
+    <string name="titre_annonce">Ad title</string>
+    <string name="date_et_heure_rdv">Date and time appointment</string>
+    <string name="lieu_du_rdv">Place of appointment </string>
+    <string name="seloger">RentHouse</string>
+
+
+    <string name="description">description :</string>
+    <string name="dzd">da/month</string>
+    <string name="metreCarre">square meters</string>
+    <string name="nombre_de_chambre">number of rooms :</string>
+    <string name="type_de_logement">housing type :</string>
+    <string name="disponibilite">Availability</string>
+    <string name="debut">Begin : </string>
+    <string name="fin">End :</string>
+    <string name="dispo_proprio">Availability of this owner:</string>
+    <string name="fermer">close</string>
+    <string name="valider">Validate</string>
+    <string name="annuler">Cancel</string>
+    <string name="string1">Are you sure to delete the ad :</string>
+    <string name="string2">Delete this ad:</string>
+    <string name="string3">price :</string>
+    <string name="string4">da/month</string>
+    <string name="string5">What is your budget ?</string>
+    <string name="string6">Choose the number of rooms:</string>
+    <string name="string7">Give an approximate surface?</string>
+    <string name="string8">Availability</string>
+    <string name="string9">Begin:</string>
+    <string name="string10">End :</string>
+    <string name="string11">Are you sure to remove the availability?</string>
+    <string name="string12">remove</string>
+    <string name="string13">Cancel</string>
+    <string name="string14">Add</string>
+    <string name="string15">Cancel</string>
+    <string name="string16">Add the date, the start time and the end time of the availability</string>
+    <string name="string17">Appointment with : </string>
+    <string name="string18"> for the ad : </string>
+    <string name="string19"> at the date : </string>
+    <string name="string20">place : </string>
+    <string name="string21">Validate or Refuse the appointment : </string>
+    <string name="string22">Validate</string>
+    <string name="string23">Refuse</string>
+    <string name="string25">RentHouse</string>
+    <string name="string26">day/month/year</string>
+    <string name="string27">RentHouse</string>
+
+    <string-array name="Type_de_bien">
+        <item>Appartement</item>
+        <item>Villa</item>
+        <item>Duplex</item>
+        <item>Manoir‎</item>
+        <item>Igloo</item>
+        <item>Bungalow</item>
+        <item>Loft</item>
+        <item>Studio</item>
+        <item>Château‎</item>
+    </string-array>
+
+</resources>

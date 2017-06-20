@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:descendantFocusability="beforeDescendants"
+        android:focusableInTouchMode="true"
+        tools:context="com.example.kerkouche.projetfinale.MainFragment">
+
+        <ProgressBar
+            android:id="@+id/progressBar2"
+            style="?android:attr/progressBarStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:layout_editor_absoluteY="368dp"
+            android:layout_marginLeft="8dp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            android:layout_marginRight="8dp"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintTop_toBottomOf="@+id/rechercheFiltre"
+            android:layout_marginTop="16dp" />
+
+        <AutoCompleteTextView
+            android:id="@+id/searchEdit"
+            android:layout_width="217dp"
+            android:layout_height="40dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginLeft="32dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="25dp"
+            android:completionThreshold="1"
+            android:ems="10"
+            android:hint="@string/o_souhaitez_vous_louer"
+            android:inputType="textPersonName"
+            app:layout_constraintHorizontal_bias="0.503"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/circle_menu" />
+
+        <com.hitomi.cmlibrary.CircleMenu
+            android:id="@+id/circle_menu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginStart="8dp"
+            app:layout_constraintHorizontal_bias="0.505"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+        <!--
+       <com.dd.CircularProgressButton
+           app:cpb_cornerRadius="48dp"
+
+           android:background="@drawable/ic_action_search"
+           android:id="@+id/searchBtn"
+           android:layout_width="43dp"
+           android:layout_height="40dp"
+           app:layout_constraintLeft_toRightOf="@+id/searchEdit"
+           android:layout_marginLeft="8dp"
+           android:layout_marginRight="8dp"
+           app:layout_constraintRight_toRightOf="parent"
+           app:layout_constraintTop_toTopOf="@+id/searchEdit"
+           android:layout_marginTop="0dp"
+           app:layout_constraintHorizontal_bias="0.513"
+           android:layout_marginStart="8dp"
+           android:layout_marginEnd="8dp" />  -->
+
+
+        <AutoCompleteTextView
+            android:id="@+id/typeBien"
+            android:layout_width="0dp"
+            android:layout_height="41dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:completionThreshold="1"
+            android:ems="10"
+            android:hint="@string/quel_type_de_bien_vous_cherchez"
+            android:inputType="textPersonName"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textViewRechercheFiltree" />
+
+        <EditText
+            android:id="@+id/budgetMin"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            android:layout_marginLeft="47dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginStart="47dp"
+            android:layout_marginTop="8dp"
+            android:ems="10"
+            android:hint="@string/min"
+            android:inputType="number"
+            app:layout_constraintHorizontal_bias="0.18"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textViewRechercheFiltree" />
+
+        <EditText
+            android:id="@+id/budgetMax"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginStart="8dp"
+            android:ems="10"
+            android:hint="@string/max"
+            android:inputType="number"
+            app:layout_constraintHorizontal_bias="0.491"
+            app:layout_constraintLeft_toRightOf="@+id/budgetMin"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/SurfaceMin" />
+
+        <EditText
+            android:id="@+id/chambreMax"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginStart="8dp"
+            android:ems="10"
+            android:hint="@string/max"
+            android:inputType="number"
+            app:layout_constraintLeft_toRightOf="@+id/chambreMin"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/chambreMin" />
+
+        <EditText
+            android:id="@+id/SurfaceMin"
+            android:layout_width="79dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginStart="8dp"
+            android:ems="10"
+            android:hint="@string/min"
+            android:inputType="number"
+            app:layout_constraintHorizontal_bias="0.29"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/typeBien" />
+
+        <EditText
+            android:id="@+id/SurfaceMax"
+            android:layout_width="79dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginStart="8dp"
+            android:ems="10"
+            android:hint="@string/max"
+            android:inputType="number"
+            app:layout_constraintLeft_toRightOf="@+id/SurfaceMin"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/SurfaceMin" />
+
+        <EditText
+            android:id="@+id/chambreMin"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginStart="8dp"
+            android:ems="10"
+            android:hint="@string/min"
+            android:inputType="number"
+            app:layout_constraintHorizontal_bias="0.291"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/SurfaceMin" />
+
+        <Button
+            android:id="@+id/rechercheFiltre"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="15dp"
+            android:text="@string/lancer_la_recherche"
+            app:layout_constraintHorizontal_bias="0.558"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/typeBien" />
+
+        <TextView
+            android:id="@+id/textViewRechercheFiltree"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginStart="8dp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Title"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/circle_menu" />
+
+        <ListView
+            android:id="@+id/listAnnonce"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="0dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginRight="0dp"
+            android:layout_marginTop="8dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/rechercheFiltre"
+            app:layout_constraintVertical_bias="0.0" />
+
+
+    </android.support.constraint.ConstraintLayout>
+</ScrollView>

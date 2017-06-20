@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<web-app version="2.5" xmlns="http://java.sun.com/xml/ns/javaee">
+    <servlet>
+        <servlet-name>MyServlet</servlet-name>
+        <servlet-class>com.example.kerkouche.myapplication.backend.MyServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>MyServlet</servlet-name>
+        <url-pattern>/hello</url-pattern>
+    </servlet-mapping>
+    <welcome-file-list>
+        <welcome-file>index.html</welcome-file>
+    </welcome-file-list>
+
+    <servlet>
+        <servlet-name>AddUser</servlet-name>
+        <servlet-class>com.example.kerkouche.myapplication.backend.Servlet.addUserServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>AddUser</servlet-name>
+        <url-pattern>/addUser</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>AddCommentaire</servlet-name>
+        <servlet-class>com.example.kerkouche.myapplication.backend.Servlet.addCommentaireServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>AddCommentaire</servlet-name>
+        <url-pattern>/addCommentaire</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>AddRDV</servlet-name>
+        <servlet-class>com.example.kerkouche.myapplication.backend.Servlet.addRDVServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>AddRDV</servlet-name>
+        <url-pattern>/addRDV</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>ValiderRDV</servlet-name>
+        <servlet-class>com.example.kerkouche.myapplication.backend.Servlet.validerRDVServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ValiderRDV</servlet-name>
+        <url-pattern>/validerRDV</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>GetRDVNotification</servlet-name>
+        <servlet-class>com.example.kerkouche.myapplication.backend.Servlet.getRDVNotificationServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>GetRDVNotification</servlet-name>
+        <url-pattern>/getRDVNotification</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>GetRDV</servlet-name>
+        <servlet-class>com.example.kerkouche.myapplication.backend.Servlet.getRDVServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>GetRDV</servlet-name>
+        <url-pattern>/getRDV</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>Authentification</servlet-name>
+        <servlet-class>com.example.kerkouche.myapplication.backend.Servlet.authentificationServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Authentification</servlet-name>
+        <url-pattern>/authentification</url-pattern>
+    </servlet-mapping>
+
+
+
+
+    <servlet>
+        <servlet-name>getAnnonceServlet</servlet-name>
+        <servlet-class>com.example.kerkouche.myapplication.backend.Servlet.getAnnonceServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>getAnnonceServlet</servlet-name>
+        <url-pattern>/getAnnonce</url-pattern>
+    </servlet-mapping>
+
+
+
+
+
+    <servlet>
+        <servlet-name>GetDetail</servlet-name>
+        <servlet-class>com.example.kerkouche.myapplication.backend.Servlet.getDetailServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>GetDetail</servlet-name>
+        <url-pattern>/getDetail</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>GetDisponibilite</servlet-name>
+        <servlet-class>com.example.kerkouche.myapplication.backend.Servlet.getDisponibiliteServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>GetDisponibilite</servlet-name>
+        <url-pattern>/getDisponibilite</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>Connexion</servlet-name>
+        <servlet-class>com.example.kerkouche.myapplication.backend.Servlet.connexionServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Connexion</servlet-name>
+        <url-pattern>/connexion</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>GetCommentaire</servlet-name>
+        <servlet-class>com.example.kerkouche.myapplication.backend.Servlet.getCommentaireServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>GetCommentaire</servlet-name>
+        <url-pattern>/getCommentaire</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>rechercheServlet</servlet-name>
+        <servlet-class>com.example.kerkouche.myapplication.backend.Servlet.rechercheServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>rechercheServlet</servlet-name>
+        <url-pattern>/recherche</url-pattern>
+    </servlet-mapping>
+</web-app>

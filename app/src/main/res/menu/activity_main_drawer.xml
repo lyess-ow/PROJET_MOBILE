@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/accueil"
+            android:icon="@drawable/ic_action_home"
+            android:title="@string/accueil" />
+    </group>
+
+    <item android:title="@string/propri_taire">
+        <menu>
+            <item
+                android:id="@+id/voirAnnoncesProprio"
+                android:icon="@drawable/ic_action_listprop"
+                android:title="@string/voir_mes_annonces" />
+
+            <item
+                android:id="@+id/voirRDVProprio"
+                android:icon="@drawable/ic_action_listrdv"
+                android:title="@string/voir_mes_rendez_vous" />
+
+            <item
+                android:id="@+id/modifierDisponibilite"
+                android:icon="@drawable/ic_action_listdispo"
+                android:title="@string/modifier_mes_disponibilit_s" />
+        </menu>
+    </item>
+
+    <item android:title="@string/compte">
+        <menu>
+            <item
+                android:id="@+id/connexion"
+                android:icon="@drawable/ic_action_connexion"
+                android:title="@string/connexion" />
+
+            <item
+                android:id="@+id/creation"
+                android:icon="@drawable/ic_action_adduser"
+                android:title="@string/creer_un_compte" />
+
+            <item
+                android:id="@+id/deconnexion"
+                android:icon="@drawable/ic_action_logout"
+                android:title="@string/deconnexion" />
+
+        </menu>
+    </item>
+
+    <item android:title="Paramètres">
+        <menu>
+            <item
+                android:id="@+id/startEtStop"
+                android:icon="@drawable/ic_action_notification"
+                android:title="start/stop notification"
+                app:actionLayout="@layout/switch_item" />
+
+        </menu>
+    </item>
+
+</menu>

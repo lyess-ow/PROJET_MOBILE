@@ -1,0 +1,249 @@
+<resources>
+    <string name="app_name">SeLoger</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string-array name="titre">
+        <item>Location Villa Alger Ain taya</item>
+        <item>Location Appartement F4 Alger Alger centre</item>
+        <item>Location Studio Alger Ain benian</item>
+        <item>Location Duplex F4 Alger Dely brahim</item>
+        <item>Location Bungalow Zéralda</item>
+        <item>Location Appartement F2 Alger Ouled fayet</item>
+        <item>Location Appartement F4 Alger Bouzareah</item>
+    </string-array>
+
+    <string-array name="description">
+        <item>Loue villa Aintaya sp 350 m2 entièrement meubles avec cuisine équipe vue sur mer dans un quartier résidentiel ou bien vente</item>
+        <item>Agence Immobilière Salwa met en location un App de 4 pièces en 4éme étages , Sup:90m² ,meublé à Alger centre (1er Mai) </item>
+        <item>ain benian :bord de mer,a la Plage Fontaine : loue un grand studio, meublé, sup.45m², dans une villa, 1e et dernier étage, avec cuisine équipée, terrasse, très belle vue sur mer, à 50m de la plage, quartier très calme, endroit idéal pour reposer, pour courte durée,</item>
+        <item>confiace-immo , met en location un duplex F4 de 140m² avec dans une villa au niveau de dely brahim \" center \" avec telephone pour bureaux</item>
+        <item>Appartement F3 spacieux Haut STANDING au village Touristique de Saket EPLF avec une magnifique terasse spacieuse, vue sur mer et sur le Port de peche et de Plaisance  bien equipé
+              ( 2 chambres , laiterie,. , SALON TV plasma ...cuisine equipé ..plaque , four , vaissels, micro-onde, Friteuse, .Eau chaude , grande citerne ..etc ..),
+              Endroit bien situé et sécurisé
+              Toute reservation se fait á l\'avance
+              N.B: la remise des clees ne s\'effecturrera qu\'avant 18H merci pour votre comprehenssion </item>
+        <item>Loue deux appartements en niveau de villa entrée indépendante avec jardin et garage dans un quartier résidentiel à ouled fayet </item>
+        <item>Agence Le Bon Flair loue un F4 récent sur la \"route neuve\" pas très loin d\'El-biar et l\'axe routier qui mène à l\'autoroute.
+              L\'appartement est situé dans un petit immeuble (villa) de 4 voisins avec garage à accès automatisé,videophone. Possède une suite parentale, Chauffage central, grand balcon côté salon et vue sur El-Biar. La grande cuisine est meublée et possède son balcon.
+              Les deux salles de bain sont modernes, l\'une avec baignoire et l\'autre avec cabine douche. </item>
+    </string-array>
+
+    <string-array name="region">
+        <item>Ain-Taya</item>
+        <item>Alger-Centre</item>
+        <item>Ain-Benian</item>
+        <item>Dely-Ibrahim</item>
+        <item>Zeralda</item>
+        <item>Ouled-Fayet</item>
+        <item>Bouzareah</item>
+        <item>Sidi-MHamed</item>
+        <item>El-Madania</item>
+        <item>Belouizdad</item>
+        <item>Bab-El-Oued</item>
+        <item>Bologhine</item>
+        <item>Casbah</item>
+        <item>Oued-Koriche</item>
+        <item>Bir-Mourad-Rais</item>
+        <item>El-Biar</item>
+        <item>Birkhadem</item>
+        <item>El-Harrach</item>
+        <item>Baraki</item>
+        <item>Oued-Smar</item>
+        <item>Hussein-Dey</item>
+        <item>Bachdjerrah</item>
+        <item>Kouba</item>
+        <item>Bourouba</item>
+        <item>Bab-Ezzouar</item>
+        <item>Ben-Aknoun</item>
+        <item>El-Hammamet</item>
+        <item>Rais-Hamidou</item>
+        <item>Djasr-Kasentina</item>
+        <item>El-Mouradia</item>
+        <item>Hydra</item>
+        <item>Mohammadia</item>
+        <item>Bordj-El-Kiffan</item>
+        <item>El-Magharia</item>
+        <item>Beni-Messous</item>
+        <item>Les-Eucalyptus</item>
+        <item>Birtouta</item>
+        <item>Tessala-El-Merdja</item>
+        <item>Ouled-Chebel</item>
+        <item>Sidi-Moussa</item>
+        <item>Bordj-El-Bahri</item>
+        <item>El-Marsa</item>
+        <item>HRaoua</item>
+        <item>Rouiba</item>
+        <item>Reghaia</item>
+        <item>Staoueli</item>
+        <item>Mahelma</item>
+        <item>Rahmania</item>
+        <item>Souidania</item>
+        <item>Cheraga</item>
+        <item>El-Achour</item>
+        <item>Draria</item>
+        <item>Douera</item>
+        <item>Khraicia</item>
+        <item>Saoula</item>
+    </string-array>
+    <string name="title_activity_detail">DetailActivity</string>
+
+    <string-array name="commentaire">
+        <item>Dein Syria per speciosam interpatet diffusa planitiem. hanc nobilitat Antiochia, mundo cognita civitas, cui non certaverit alia advecticiis ita adfluere copiis et internis, et Laodicia et Apamia itidemque Seleucia iam inde a primis auspiciis florentissimae.</item>
+        <item>Has autem provincias, quas Orontes ambiens amnis imosque pedes Cassii montis illius celsi praetermeans funditur in Parthenium mare, Gnaeus Pompeius superato Tigrane regnis Armeniorum abstractas dicioni Romanae coniunxit.</item>
+        <item>Sine culpa nunc angustias veneno voluntaria nobis nunc ob foederato nobis proscribi ordo Romanum ulla urbem eius iusso eius ordo avide advectae eius et Catonem et sine repetetur repetetur dicere.</item>
+        <item>Cum vultis me fui causa factis mihi hominum homini exempla amicus debeo inimicitias ex consiliorum ex ipsas consiliorum publicae summorum exempla atque me inimicus causa rei si inimicitias si atque.</item>
+        <item>Ubi tempestate missaeque montium tempestate solent Gallum militaribus celsorum gesta relationes Caesarem longius Caesarem ubi et avia iussus orientis abscessere Caesarem Gallum gesta ea iussus re fama ut solent montium.</item>
+        <item>Fiducia isdem apud scutorum angusti signis sole fiducia et et legiones prope piscatorios scutorum conserendas scientissime amnem permeare magnitudine scutorum tunc cavatis dum aliquos tunc fiducia quoque transitu fiducia piscatorios.</item>
+        <item>Tempore alia sic quis nobis decernendis intellego pacis oportere omni nos vacua provinciis hoc oportere pacis tempore suspicione nos Nam rationem in omnia vacua vero Nam non belli Patres decernendis.</item>
+    </string-array>
+    <string name="title_activity_rdv">RDVActivity</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="title_activity_login">Connexion</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email ou pseudo</string>
+    <string name="prompt_password">mot de passe</string>
+    <string name="action_sign_in">Connexion</string>
+    <string name="action_sign_in_short">Connexion</string>
+    <string name="error_invalid_email">email ou pseudo invalide</string>
+    <string name="error_invalid_password">mot de passe incorrect</string>
+    <string name="error_incorrect_password">mot de passe incorrect</string>
+    <string name="error_field_required">Ce champ est requis</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="title_activity_creation_compte">Créer un compte</string>
+
+    <string name="prompt_nom">nom</string>
+    <string name="prompt_prenom">prenom</string>
+    <string name="prompt_preudo">pseudo</string>
+    <string name="prompt_email_pseudo">email</string>
+    <string name="action_creation">Valider</string>
+    <string name="action_annuler">Annuler</string>
+
+    <string name="error_exist_email">Cette adresse e-mail existe déjà</string>
+    <string name="error_exist_pseudo">Ce pseudo existe déjà</string>
+    <string name="error_exist_password2">mot de passe trop court</string>
+
+    <string name="prompt_password2">retaper le mot de passe</string>
+    <string name="error_exist_password_different">mots de passes différents</string>
+    <string name="title_activity_voir_demande_rdv">VoirDemandeRDVActivity</string>
+    <string name="title_activity_annonce_proprietaire">AnnonceProprietaireActivity</string>
+    <string name="accueil">Accueil</string>
+    <string name="propri_taire">Propriétaire</string>
+    <string name="voir_mes_annonces">Voir mes annonces</string>
+    <string name="voir_mes_rendez_vous">Voir mes rendez-vous</string>
+    <string name="modifier_mes_disponibilit_s">modifier mes disponibilités</string>
+    <string name="compte">Compte</string>
+    <string name="connexion">Connexion</string>
+    <string name="creer_un_compte">Créer un compte</string>
+    <string name="deconnexion">Déconnexion</string>
+    <string name="heure_debut">heure début : heure:minute</string>
+    <string name="heure_fin">heure fin : heure:minute</string>
+    <string name="entrez_la_date_et_l_heure_du_rendez_vous">Entrez la date et l\'heure du Rendez-vous :</string>
+    <string name="jour_mois_ann_e">jour/mois/année</string>
+    <string name="heure_minute">heure:minute</string>
+    <string name="entrez_le_lieu_du_rendez_vous">Entrez le lieu du Rendez-vous :</string>
+    <string name="lieu_du_rendez_vous">lieu du Rendez Vous</string>
+    <string name="mes_annonces">Mes annonces</string>
+    <string name="localiser_sur_la_carte">Localiser sur la carte</string>
+    <string name="titre">titre</string>
+    <string name="desciption">desciption</string>
+    <string name="typelog">typeLog</string>
+    <string name="prix">prix</string>
+    <string name="region">region</string>
+    <string name="nbrdechambres">nbrDeChambres</string>
+    <string name="surface">surface</string>
+    <string name="laisser_un_avis">Laisser un avis</string>
+    <string name="laissez_votre_avis_sur_l_annonce">Laissez votre avis sur l\'annonce !</string>
+    <string name="afficher_les_disponibilit_s_du_propri_taire_pour_les_visites">Afficher les disponibilités du propriétaire pour les visites</string>
+    <string name="prendre_un_rdv_pour_visiter_le_logement">Prendre un RDV pour visiter le logement</string>
+    <string name="o_souhaitez_vous_louer">Où souhaitez-vous louer ?</string>
+    <string name="quel_type_de_bien_vous_cherchez">Quel type de bien vous cherchez ?</string>
+    <string name="min">min</string>
+    <string name="max">max</string>
+    <string name="lancer_la_recherche">Lancer la recherche</string>
+    <string name="ajouter">ajouter</string>
+    <string name="mes_disponibilites">Mes disponibilités</string>
+    <string name="mes_rendez_vous">Mes Rendez-vous</string>
+    <string name="username">username</string>
+    <string name="date">date</string>
+    <string name="titre_annonce">titre annonce</string>
+    <string name="date_et_heure_rdv">date et heure rdv</string>
+    <string name="lieu_du_rdv">lieu du rdv</string>
+    <string name="seloger">SeLoger</string>
+
+    <string name="description">description :</string>
+    <string name="dzd">da/mois</string>
+    <string name="metreCarre">mètres carrés</string>
+    <string name="nombre_de_chambre">nomre de chambres :</string>
+    <string name="type_de_logement">type de logement :</string>
+    <string name="disponibilite">Disponibilité</string>
+    <string name="debut">Début :</string>
+    <string name="fin">Fin :</string>
+    <string name="dispo_proprio">Les disponibilités du propriétaire :</string>
+    <string name="fermer">Fermer</string>
+    <string name="valider">Valider</string>
+    <string name="annuler">Annuler</string>
+    <string name="string1">êtes-vous sûre de supprimer l\'annonce :</string>
+    <string name="string2">Supprimer l\'annonce:</string>
+    <string name="string3">prix :</string>
+    <string name="string4">da/mois</string>
+    <string name="string5">Quel est votre budget ?</string>
+    <string name="string6">Choisir le nombre de Chambre :</string>
+    <string name="string7">donner une surface approximative ?</string>
+    <string name="string8">Disponibilité</string>
+    <string name="string9">Début :</string>
+    <string name="string10">Fin :</string>
+    <string name="string11">êtes-vous sure de supprimer la disponibilité ?</string>
+    <string name="string12">supprimer</string>
+    <string name="string13">annuler</string>
+    <string name="string14">Ajouter</string>
+    <string name="string15">Annuler</string>
+    <string name="string16">ajouter la date, l\'heure début et l\'heure fin de la disponibilité</string>
+    <string name="string17">Rendez-vous avec</string>
+    <string name="string18">pour l\'annonce</string>
+    <string name="string19">le : </string>
+    <string name="string20">lieu :</string>
+    <string name="string21">Valider ou Refuser le rendez-vous :</string>
+    <string name="string22">Valider</string>
+    <string name="string23">Refuser</string>
+    <string name="string25">SeLoger</string>
+    <string name="string26">jour/mois/année</string>
+    <string name="string27">SeLoger</string>
+
+
+    <string-array name="Type_de_bien">
+        <item>Appartement</item>
+        <item>Villa</item>
+        <item>Duplex</item>
+        <item>Manoir‎</item>
+        <item>Igloo</item>
+        <item>Bungalow</item>
+        <item>Loft</item>
+        <item>Studio</item>
+        <item>Château‎</item>
+    </string-array>
+
+    <string name="new_message_notification_title_template">New message: %1$s</string>
+
+    <!-- TODO: remove this placeholder text -->
+    <string name="new_message_notification_placeholder_text_template">You said %1$s and lorem ipsum
+        dolor sit amet, consectetur adipiscing elit. Etiam non enim magna. Morbi dictum, velit vel
+        semper venenatis, magna odio volutpat velit, at ullamcorper nulla lacus sed turpis.
+        Pellentesque vitae metus elit, nec tincidunt tellus. Integer sed nisl sem, ullamcorper
+        ornare lacus. Duis ac mauris sed massa congue volutpat. Donec sed erat sit amet turpis
+        viverra rhoncus sit amet nec magna. Donec lacinia ligula at libero volutpat volutpat nec nec
+        tortor.
+    </string>
+
+    <string name="action_share">Share</string>
+    <string name="action_reply">Reply</string>
+</resources>
